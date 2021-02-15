@@ -15,8 +15,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    '.easter.company',
-    '.eastercompany.eu.pythonanywhere.com'
+    '.inverair.co.uk',
 ]
 
 # Application definition
@@ -111,7 +110,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'client', 'build', 'static'),
-    os.path.join(BASE_DIR, 'data'),
 )
 
 # Solves cors issue while serving React Apps
