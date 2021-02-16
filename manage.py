@@ -28,7 +28,7 @@ def client(build=False):
     chdir(BASE_DIR)
 
 
-def server(start=True, migrate=False):
+def server(start=True, migrate=False, build=False):
 
     def run(_cmd):
         system("{python} {dir}/manage.py {command}".\
@@ -38,7 +38,6 @@ def server(start=True, migrate=False):
     if migrate:
         run('makemigrations')
         run('migrate')
-
     if start:
         run('runserver')
 

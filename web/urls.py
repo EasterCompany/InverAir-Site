@@ -12,4 +12,5 @@ urlpatterns = [
     path('robots.txt', robots),
     path('manifest.json', manifestJSON),
     path('asset-manifest.json', asset_manifest),
+
 ]
