@@ -1,4 +1,4 @@
 
-# Django-React Template Repository
+# Inverair Drone Services (Server)
 
-Template repository for all future Easter Company Django-React based Applications.
+https://www.inverair.co.uk
