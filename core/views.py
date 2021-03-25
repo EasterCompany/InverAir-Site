@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 
 def index(req, *args, **kwargs):
-    return render(req, 'index.html')
+    return render(req, 'index')
 
 
 def robots(req, *args, **kwargs):
